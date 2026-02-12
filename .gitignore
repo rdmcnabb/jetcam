@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Kernel modules (built locally, platform-specific)
+*.ko
+*.o
+*.mod
+*.mod.c
+*.cmd
+*.d
+.tmp_versions/
+Module.symvers
+modules.order
+
+# IDE
+.vscode/
+.idea/
+
+# Screenshots from live_feed
+screenshot_*.png

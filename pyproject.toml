@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jetcam"
+version = "0.1.0"
+description = "USB camera and microphone library for Linux"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "sounddevice",
+]
+
+[project.optional-dependencies]
+opencv = ["opencv-python"]
+
+[tool.setuptools.packages.find]
+include = ["jetcam*"]
